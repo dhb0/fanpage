@@ -1,0 +1,138 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #EE682A;
+}
+
+#main{
+    background-color: #060809;
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+p{
+    color: #EE682A;
+}
+
+a{
+    color: white;
+    -webkit-transition: color 0.2s ease-out;
+ -moz-transition: color 0.2s ease-out;
+ -o-transition: color 0.2s ease-out;
+ -ms-transition: color 0.2s ease-out;
+ transition: color 0.2s ease-out;
+}
+
+header{
+    color: #EE682A;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+header>h1{
+    margin-top:70 px;
+    margin-bottom: 10px;
+}
+
+header>p{
+    margin-top: 3px;
+}
+
+#img-div{
+    background-color: #434343;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#image1{
+    max-width: 100%;
+    margin: auto;
+    border: 5px dashed #EE682A;
+    background-color: black;
+}
+
+#img-caption{
+    font-size: 20px;
+    color: #060809;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+hr{
+    height: 1px;
+    background-color: #EE682A;
+    border: none;
+}
+
+article{
+    color:whitesmoke;
+    text-align: justify;
+    width:80%;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+section>header{
+    font-size: 30px;
+}
+
+article>footer{
+    color: #EE682A;
+    margin: auto;
+    resize: 80%;
+}
+
+
+a:hover{
+    border: 1px solid #EE682A;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #EE682A;
+}
+.wiki{
+    clear:both;
+    color: white;
+    padding: 0px 20px;
+}
+
+#quote{
+    width: 55%;
+    text-align: right;
+    margin-left: 20px;
+    clear:both;
+    float: right;
+
+}
+
+#mainfooter{
+    text-align: center;
+    font-size: 18px ;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px){
+    #quote{
+        width:80%;
+    }
+    article{
+        width: 90%;
+    }
+    *{
+        font-size: 85%;
+    }
+    #img-caption{
+        font-size: 16px;
+    }
+   
+    #image1{
+        margin-top:0px;
+    }
+    .wiki{
+        font-size: 14px;
+    }
+}
