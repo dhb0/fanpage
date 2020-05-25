@@ -19,10 +19,10 @@ p{
 a{
     color: white;
     -webkit-transition: color 0.2s ease-out;
- -moz-transition: color 0.2s ease-out;
- -o-transition: color 0.2s ease-out;
- -ms-transition: color 0.2s ease-out;
- transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
 }
 
 header{
@@ -51,7 +51,8 @@ header>p{
 #image1{
     max-width: 100%;
     margin: auto;
-    border: 5px dashed #EE682A;
+    outline: 5px dashed #EE682A;
+    outline-offset: -5px;
     background-color: black;
 }
 
